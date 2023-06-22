@@ -64,6 +64,10 @@ datasummary(Factor(treat)*(mean + median + sd + min + max) ~ growth + rgdp60 , d
 
 **Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
 
+In the table, the mean growth is higher for countries with revolutions equal to 0 compared to countries with more than 0 revolutions, while the median growth is similar between the two groups. The variable "rgdp60" has a higher mean and median for countries with more than 0 revolutions compared to countries with revolutions equal to 0.
+
+
+
 
 ### Part 3: Make a table summarizing regressions using modelsummary and kable
 
